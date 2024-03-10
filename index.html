@@ -67,32 +67,66 @@
 			</article>
 		</main>
 		<footer>
-			<table>
+			<table id="foot" border="2px">
 				<caption>
 					<h4>Таблица тегов</h4>
 				</caption>
 				<thead>
 					<tr>
-						<th>Заголовок 1</th>
-						<th>Заголовок 2</th>
+						<th colspan="2">Блочные</th>
+						<th colspan="2">Строчные</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th>
-							<pre></pre>
+							<code>&ltdiv&gtДив&ltdiv/&gt</code>
 						</th>
+						<th>Тег - div строительный кирпичик без смысловой нагрузки</th>
+						<th>
+							<code>&ltspan&gtСпан&ltspan/&gt</code>
+						</th>
+						<th>Текстовый тег без смысловой нагрузки</th>
+					</tr>
+
+					<tr>
+						<th>
+							<code>&ltp&gtПараграф&ltp/&gt</code>
+						</th>
+						<th>Тег - p Параграф текста</th>
+						<th>
+							<code>&lta href='#'&gtСсылка&lta/&gt</code>
+						</th>
+						<th>Тег ссылки</th>
 					</tr>
 					<tr>
-						<code></code>
+						<th>
+							<code>&lth1&gtЗаголовок&lth1/&gt</code>
+						</th>
+						<th>Тег зоголовка. Различают 6 типов заголовков h1 - h6</th>
+						<th>
+							<code>&ltimg src='#' alt='Картинка'&gt</code>
+						</th>
+						<th>Тег картинки</th>
 					</tr>
 					<tr>
-						<code></code>
-					</tr>
-					<tr>
-						<code></code>
+						<th>
+							<code>&ltul&gtСписок&ltul/&gt</code>
+						</th>
+						<th>
+							Тег ненумерованного списка. Также есть тег нумеровонного списка
+						</th>
+						<th>
+							<code>&lti&gtКурсивный текст&lti/&gt</code>
+						</th>
+						<th>Тег для выделения текста курсивом</th>
 					</tr>
 				</tbody>
+				<tfoot>
+					<tr>
+						<th colspan="4"><p>Теперь вы знаете основные HTML - теги!</p></th>
+					</tr>
+				</tfoot>
 			</table>
 		</footer>
 	</body>
