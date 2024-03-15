@@ -1,0 +1,39 @@
+body {
+	width: 1920px;
+}
+.logo_one img {
+	width: 80px;
+	height: 20px;
+	margin-top: 50px;
+	margin-left: 370px;
+}
+.arrow_one a img {
+	width: 24px;
+	height: 12px;
+	margin-top: 40px;
+	margin-left: 370px;
+}
+#exit_one {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+h1 {
+	margin-top: 270px;
+	margin-left: 473px;
+	font-size: 48px;
+	line-height: 56px;
+}
+.main_block_one {
+	width: 480px;
+	height: 505px;
+	margin-top: 40px;
+	margin-left: 502px;
+	box-shadow: 5px 5px rgb(248, 239, 239);
+}
+
+.block_one h2 {
+	color: blue;
+}
+.block_one img {
+	margin-left: 400px;
+}
