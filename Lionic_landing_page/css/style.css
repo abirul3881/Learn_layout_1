@@ -24,6 +24,7 @@ html {
 	padding-left: 15px;
 }
 .btn {
+	display: inline-block;
 	padding: 15px 16px;
 	font-size: 12px;
 	line-height: 1;
@@ -33,6 +34,9 @@ html {
 	border-radius: 4px;
 	cursor: pointer;
 }
+
+/*Header*/
+
 .header {
 	height: 110px;
 }
@@ -52,4 +56,23 @@ html {
 }
 .header_btn {
 	margin-left: 80px;
+}
+
+/*Main*/
+
+.hero_contaner {
+	padding-top: 120px;
+	padding-bottom: 130px;
+}
+.hero_content {
+	max-width: 50%;
+}
+.section_hero_heading {
+	margin-bottom: 20px;
+}
+.section_hero_description {
+	margin-bottom: 30px;
+}
+.section_hero_btn_description {
+	margin-top: 10px;
 }
