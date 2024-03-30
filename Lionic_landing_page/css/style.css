@@ -34,6 +34,9 @@ html {
 	border-radius: 4px;
 	cursor: pointer;
 }
+.text_center {
+	text-align: center;
+}
 
 /*Header*/
 
@@ -75,4 +78,116 @@ html {
 }
 .section_hero_btn_description {
 	margin-top: 10px;
+}
+
+/* Main section what we do */
+
+.section_do {
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+.section_description {
+	margin-top: 25px;
+}
+.section_do_list {
+	display: flex;
+	margin-top: 50px;
+}
+.section_do_item {
+	flex: 1 1 25%;
+}
+.section_do_item:not(:last-child) {
+	margin-right: 30px;
+}
+
+/* Main Our Happy Clients */
+
+.section_clients {
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.section_clients_list {
+	display: flex;
+}
+.section_clients_list_item {
+	flex: 1 1 33.33%;
+}
+.section_clients_list_item:not(:last-child) {
+	margin-right: 30px;
+}
+.section_clients_user {
+	display: flex;
+	align-items: center;
+}
+.section_clients_avatar {
+	width: 60px;
+	height: 60px;
+	margin-right: 15px;
+	border: 2px solid #3172b9;
+	border-radius: 50%;
+}
+
+/* Main section contacts */
+
+.section_contacts {
+	padding-top: 85px;
+	padding-bottom: 95px;
+}
+.section_contacts_list {
+	display: flex;
+	margin-top: 43px;
+}
+.section_contacts_list_item {
+	flex: 1 1 33.33%;
+}
+.section_contacts_info {
+	max-width: 250px;
+}
+.section_contacts_item {
+	display: block;
+	height: 26px;
+	margin-bottom: 25px;
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: auto 100%;
+	background-color: transparent;
+}
+.section_contacts_item_gps {
+	background-image: url('/Lionic_landing_page/img/gps.png');
+}
+.section_contacts_item_phone {
+	background-image: url('/Lionic_landing_page/img/phone.png');
+}
+.section_contacts_item_mail {
+	background-image: url('/Lionic_landing_page/img/mail.png');
+	background-size: auto 19px;
+}
+.section_contacts_heading {
+	display: block;
+	margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+	height: 125px;
+}
+.footer_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+.footer_left {
+	display: flex;
+	align-items: center;
+}
+.footer_logo {
+	margin-right: 25px;
+}
+.footer_nav_list {
+	display: flex;
+}
+.footer_nav_item:not(:last-child) {
+	margin-right: 35px;
 }
