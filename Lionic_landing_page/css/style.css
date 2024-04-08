@@ -51,14 +51,18 @@ html {
 }
 .btn {
 	display: inline-block;
-	padding: 15px 16px;
+	padding: 15px 30px;
 	font-size: 12px;
 	line-height: 1;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: white;
 	background-color: #3172b9;
 	border-radius: 4px;
 	cursor: pointer;
+}
+.btn.btn_big {
+	padding: 20px 60px;
 }
 .text_center {
 	text-align: center;
@@ -68,6 +72,7 @@ html {
 
 .header {
 	height: 110px;
+	border-bottom: 1px solid #e4e4e4;
 }
 .header_container {
 	display: flex;
@@ -80,6 +85,16 @@ html {
 	display: flex;
 	margin: auto;
 }
+.nav_item {
+	font-size: 15px;
+	line-height: 1;
+}
+.nav_link {
+	color: #1c1c1c;
+}
+.nav_item.is-active .nav_link {
+	color: #3172b9;
+}
 .nav_list .nav_item:not(:last-child) {
 	margin-right: 50px;
 }
@@ -88,8 +103,12 @@ html {
 }
 
 /*Main*/
-
-.hero_contaner {
+.section_hero {
+	background: url('/Lionic_landing_page/img/Base.png') right center no-repeat
+		white;
+	background-size: contain;
+}
+.hero_container {
 	padding-top: 120px;
 	padding-bottom: 130px;
 }
@@ -97,23 +116,55 @@ html {
 	max-width: 50%;
 }
 .section_hero_heading {
-	margin-bottom: 20px;
-}
-.section_hero_description {
+	font-size: 40px;
+	line-height: 52px;
+	font-weight: 300;
+	margin-top: 0px;
 	margin-bottom: 30px;
+	color: #1c1c1c;
+}
+
+.section_hero_description {
+	font-size: 16px;
+	line-height: 25px;
+	color: #787878;
+	margin-bottom: 33px;
 }
 .section_hero_btn_description {
 	margin-top: 10px;
+	margin-left: 40px;
+	font-size: 11px;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #787878;
 }
-
+.section_hero_ssl_icon {
+	/* width: 13px;
+	height: 17px; */
+	background: url('/Lionic_landing_page/img/Shield-icon.png') no-repeat
+		transparent;
+	/* background-size: contain; */
+}
 /* Main section what we do */
 
 .section_do {
 	padding-top: 140px;
 	padding-bottom: 100px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.section_heading {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-size: 36px;
+	line-height: 1.3;
+	font-weight: 300;
+	color: #414141;
 }
 .section_description {
-	margin-top: 25px;
+	margin-top: 0px;
+	font-size: 16px;
+	line-height: 1.31;
+	color: #787878;
 }
 .section_do_list {
 	display: flex;
@@ -121,9 +172,30 @@ html {
 }
 .section_do_item {
 	flex: 1 1 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 30px;
+	border: 1px solid #e4e4e4;
+	border-radius: 5px;
+}
+.section_do_item_heading {
+	margin-bottom: 18px;
+	font-size: 20px;
+	line-height: 1;
+	font-weight: 600;
+	color: #1c1c1c;
 }
 .section_do_item:not(:last-child) {
 	margin-right: 30px;
+}
+.section_do_item_description {
+	margin-top: 0px;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 300;
+	text-align: center;
+	color: #787878;
 }
 
 /* Main Our Happy Clients */
@@ -131,19 +203,39 @@ html {
 .section_clients {
 	padding-top: 90px;
 	padding-bottom: 100px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.section_clients_heading {
+	margin-bottom: 45px;
 }
 .section_clients_list {
 	display: flex;
 }
 .section_clients_list_item {
 	flex: 1 1 33.33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 50px 35px 30px;
+	border: 1px solid #e4e4e4;
+	border-radius: 5px;
 }
 .section_clients_list_item:not(:last-child) {
 	margin-right: 30px;
 }
+.section_clients_testimonial {
+	margin-top: 0px;
+	margin-bottom: 35px;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 300;
+	color: #787878;
+}
 .section_clients_user {
 	display: flex;
 	align-items: center;
+	padding-top: 28px;
+	border-top: 1px solid #e9e9e9;
 }
 .section_clients_avatar {
 	width: 60px;
@@ -151,6 +243,18 @@ html {
 	margin-right: 15px;
 	border: 2px solid #3172b9;
 	border-radius: 50%;
+}
+.ection_clients_username {
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 600;
+	color: #1c1c1c;
+}
+
+.section_clients_user_description {
+	font-size: 14px;
+	line-height: 25px;
+	color: #787878;
 }
 
 /* Main section contacts */
