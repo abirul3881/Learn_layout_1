@@ -1,3 +1,29 @@
+/* open-sans-300 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/open-sans-v40-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/open-sans-v40-cyrillic_latin-regular.woff2')
+		format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/open-sans-v40-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -13,7 +39,7 @@ img {
 	max-width: 100%;
 }
 html {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -46,19 +72,19 @@ html {
 .header_container {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	height: 100%;
 }
-.logo {
-	margin-right: auto;
-}
+
 .nav_list {
 	display: flex;
+	margin: auto;
 }
 .nav_list .nav_item:not(:last-child) {
 	margin-right: 50px;
 }
 .header_btn {
-	margin-left: 80px;
+	margin-left: 40px;
 }
 
 /*Main*/
