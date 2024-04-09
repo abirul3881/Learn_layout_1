@@ -262,6 +262,7 @@ html {
 .section_contacts {
 	padding-top: 85px;
 	padding-bottom: 95px;
+	border-bottom: 1px solid #e4e4e4;
 }
 .section_contacts_list {
 	display: flex;
@@ -295,6 +296,17 @@ html {
 .section_contacts_heading {
 	display: block;
 	margin-bottom: 40px;
+	font-size: 17px;
+	line-height: 1;
+	color: #1c1c1c;
+}
+.section_contacts_info {
+	font-size: 14px;
+	line-height: 25px;
+	color: #787878;
+}
+.section_contacts_link {
+	color: #787878;
 }
 
 /* Footer */
@@ -308,16 +320,60 @@ html {
 	justify-content: space-between;
 	height: 100%;
 }
-.footer_left {
+.footer_left,
+.footer_right {
 	display: flex;
 	align-items: center;
 }
 .footer_logo {
 	margin-right: 25px;
 }
+.footer_copirates {
+	font-size: 12px;
+	line-height: 17px;
+	color: #787878;
+}
+.footer_nav {
+	margin-right: 55px;
+}
 .footer_nav_list {
 	display: flex;
 }
+.footer_nav_item {
+	font-size: 14px;
+	line-height: 1;
+}
+.footer_nav_link {
+	color: #787878;
+}
 .footer_nav_item:not(:last-child) {
 	margin-right: 35px;
+}
+.footer_social_list {
+	display: flex;
+	align-items: center;
+}
+.footer_social_item:not(:last-child) {
+	margin-right: 30px;
+}
+.footer_social_icon {
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+.footer_social_icon_twitter {
+	width: 18px;
+	height: 15px;
+	background-image: url('/Lionic_landing_page/img/Twitter.png');
+}
+.footer_social_icon_linkedin {
+	width: 18px;
+	height: 19px;
+	background-image: url('/Lionic_landing_page/img/Linkedin.png');
+}
+.footer_social_icon_email {
+	width: 24px;
+	height: 17px;
+	background-image: url('/Lionic_landing_page/img/Email.png');
 }
